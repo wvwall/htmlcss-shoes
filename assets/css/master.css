@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.row-1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  position: relative;
+}
+.col-100 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.shoes {
+  width: 100%;
+}
+.titolo {
+  width: 350px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  color: yellow;
+}
+.row-2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  position: relative;
+}
+/* .row-3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+  position: relative;
+} */
