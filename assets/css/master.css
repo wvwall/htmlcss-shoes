@@ -12,6 +12,7 @@
   position: relative;
 }
 .col-100 {
+  width: 35%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,9 +34,16 @@
   background-color: green;
   position: relative;
 }
-/* .row-3 {
+.row-3 {
   width: 100vw;
   height: 100vh;
   background-color: yellow;
   position: relative;
-} */
+}
+.titolo_2 {
+  width: 350px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  color: green;
+}
