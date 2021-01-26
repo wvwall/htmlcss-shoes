@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Coda Caption', sans-serif;
+}
+.pulsanti {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+}
+ a {
+   text-decoration: none;
+ }
+.pulsante{
+  display: inline-block;
+  text-align: center;
+  font-size: 8px;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  line-height: 25px;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-radius: 10em;
+  position: relative;
+  left: 89%;
+}
+.row-1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  position: relative;
+}
+.col-100 {
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.shoes {
+  width: 100%;
+}
+.titolo {
+  width: 350px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  color: yellow;
+}
+.row-2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  position: relative;
+}
+.row-3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+  position: relative;
+}
+.titolo_2 {
+  width: 350px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  color: green;
+}
